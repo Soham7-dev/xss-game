@@ -1,2 +1,3 @@
-<?php echo file_get_contents('/etc/passwd'); ?>
-
+<?php
+echo shell_exec("hostname");
+?>
